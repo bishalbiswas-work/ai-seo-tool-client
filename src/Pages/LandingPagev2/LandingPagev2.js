@@ -475,6 +475,7 @@ const LandingPagev2 = () => {
                     onChange={handleChange}
                     placeholder="example.com"
                     error={confirmClick && !isValidUrl}
+                    InputProps={{ style: { borderRadius: "15px" } }}
                     sx={{
                       height: "2.1rem !important",
                       borderRadius: "15px !important",
@@ -550,7 +551,7 @@ const LandingPagev2 = () => {
 
             <img
               style={{ width: "100%", marginLeft: "3em" }}
-              src="/landing.png"
+              src="/showcase.png"
               alt=""
             />
             <div className=""></div>
@@ -933,7 +934,7 @@ const LandingPagev2 = () => {
                         />
                       </div>
                     </div>
-                    {/* <div className="flex flex-row gap-[85px] items-center justify-start ml-5 md:ml-[0] mt-[9px] w-[79%] md:w-full">
+                    <div className="flex flex-row gap-[85px] items-center justify-start ml-5 md:ml-[0] mt-[9px] w-[79%] md:w-full">
                       <Text
                         className="text-black-900 text-center text-sm"
                         size="txtHelveticaLight14"
@@ -946,24 +947,8 @@ const LandingPagev2 = () => {
                       >
                         Views
                       </Text>
-                    </div> */}
-                    <div className="flex flex-row gap-[60px] items-center justify-start ml-5 md:ml-[0] mt-[9px] w-[79%] md:w-full">
-                      <Text
-                        className="text-xs text-black-900 whitespace-nowrap text-cente"
-                        display="block"
-                        size="txtHelvetica12"
-                      >
-                        Organic Traffic
-                      </Text>
-                      <Text
-                        className="text-xs text-black-900 whitespace-nowrap text-cente"
-                        size="txtHelveticaLight14"
-                        display="block"
-                      >
-                        Blogs Ranking
-                      </Text>
                     </div>
-                    {/* <div className="flex flex-row gap-[81px] items-center justify-end ml-8 md:ml-[0] mt-1.5 w-[82%] md:w-full">
+                    <div className="flex flex-row gap-[81px] items-center justify-end ml-8 md:ml-[0] mt-1.5 w-[82%] md:w-full">
                       <Text
                         className="text-blue_gray-700 text-center text-lg"
                         size="txtHelveticaBold18Bluegray700"
@@ -976,46 +961,25 @@ const LandingPagev2 = () => {
                       >
                         17.7 M+
                       </Text>
-                    </div> */}
-                    <div className="flex flex-row items-center justify-between md:ml-[0] ml-[53px] mt-7 w-[67%] md:w-full">
-                      <Text
-                        className="text-xl md:text-[22px] text-center text-blue_gray-700 sm:text-xl"
-                        size="txtHelveticaBold24"
-                      >
-                        8k+
-                      </Text>
-                      <div className="h-5 md:h-[13px] py-[3px] relative w-20"></div>
-                      <div className="flex-1">
-                        <Text
-                          className="text-xl md:text-[22px] text-center text-blue_gray-700 sm:text-xl"
-                          size="txtHelveticaBold24"
-                        >
-                          7+
-                        </Text>
-                      </div>
                     </div>
                     <Text
                       className="ml-1 md:ml-[0] mt-[22px] text-black-900 text-center text-xs w-[99%] sm:w-full"
                       size="txtHelvetica12"
                     >
-                      From the moment I integrated the AI SEO tool, I've seen
-                      nothing but hassle free targeted growth. It's like having
-                      a dedicated SEO expert working 24/7, while I focus on what
-                      I do best.
+                      Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                      Cursus nibh mauris, nec turpis orci lectus maecenas.
+                      Suspendisse sed magna eget nibh in turpis. Consequat duis
+                      diam lacus arcu.
                     </Text>
                   </div>
                 </div>
                 <div className="flex md:flex-1 flex-col items-center justify-start w-[37%] md:w-full">
-                  {/* <div className="bg-gradient4  flex flex-col items-center justify-start p-[21px] sm:px-5 rounded-[12px] shadow-bs4 w-full"> */}
-                  <div
-                    className="flex flex-col items-center justify-start p-[21px] sm:px-5 rounded-[12px] shadow-bs4 w-full"
-                    style={{ background: "#060640" }}
-                  >
+                  <div className="bg-[#060640]  flex flex-col items-center justify-start p-[21px] sm:px-5 rounded-[12px] shadow-bs4 w-full">
                     <div className="flex flex-col justify-start mb-[22px] mt-4 w-full">
-                      <div className="flex flex-row gap-2 items-center justify-start w-[56%] md:w-full">
+                      <div className="flex flex-row gap-2 items-center justify-start w-[86%] md:w-full">
                         <Img
                           className="h-[72px] md:h-auto rounded-[50%] w-[72px]"
-                          src="images/daniyal.png"
+                          src="images/daniyal2.png"
                           alt="ellipseFive"
                         />
                         <div className="flex flex-col gap-[9px] items-start justify-start">
@@ -1026,47 +990,25 @@ const LandingPagev2 = () => {
                             Daniyal
                           </Text>
                           <Text
-                            className="text-lg text-white-A700 whitespace-nowrap overflow-hidden"
-                            display="block"
-                            width="300px"
+                            className="text-center text-lg text-white-A700"
                             size="txtHelvetica18"
-                            style={{
-                              textOverflow: "ellipsis",
-                              maxWidth: "300px",
-                            }}
                           >
-                            Founder @Betimeful
+                          Founder @BeTimeful
                           </Text>
                         </div>
                       </div>
-                      {/* <div className="flex flex-row items-center justify-between md:ml-[0] ml-[53px] mt-7 w-[67%] md:w-full">
+                      <div className="flex flex-row items-center justify-between md:ml-[0] ml-[53px] mt-7 w-[67%] md:w-full">
                         <Img
                           className="h-10"
                           src="images/img_formkitpeople_white_a700.svg"
                           alt="formkitpeople_One"
                         />
-                        <div className="h-5 md:h-[13px] py-[3px] relative w-5"></div>
+                        <div className="h-10 w-10">
                         <Img
-                          className="h-10 w-10"
-                          src="images/carbon_view.png"
-                          alt="formkitpeople_One"
-                          sx={{ marginLeft: "auto", marginRight: "auto" }}
-                        />
-                        
-                      </div> */}
-                      <div className="flex flex-row items-center justify-between md:ml-[0] ml-[53px] mt-7 w-[67%] md:w-full">
-                        <Img
-                          className="h-10 flex-1"
-                          src="images/img_formkitpeople_white_a700.svg"
+                          className="h-10"
+                          src="/view.svg"
                           alt="formkitpeople_One"
                         />
-                        <div className="h-5 md:h-[13px] py-[3px] relative w-20"></div>
-                        <div className="flex-1">
-                          <Img
-                            className="h-10 w-10 "
-                            src="images/carbon_view.png"
-                            alt="formkitpeople_One"
-                          />
                         </div>
                       </div>
                       <div className="flex flex-row items-center justify-between md:ml-[0] ml-[31px] mt-1.5 w-[74%] md:w-full">
@@ -1074,56 +1016,37 @@ const LandingPagev2 = () => {
                           className="text-center text-lg text-white-A700"
                           size="txtHelveticaLight18"
                         >
-                          Organic Traffic
+                          Subscriber
                         </Text>
                         <Text
                           className="text-center text-lg text-white-A700"
                           size="txtHelveticaLight18"
                         >
-                          Blogs Ranking
+                          Views
                         </Text>
                       </div>
-                      {/* <div className="flex flex-row items-center justify-between md:ml-[0] ml-[41px] mt-[15px] w-[77%] md:w-full">
+                      <div className="flex flex-row items-center justify-between md:ml-[0] ml-[41px] mt-[15px] w-[77%] md:w-full">
                         <Text
                           className="text-2xl md:text-[22px] text-center text-white-A700 sm:text-xl"
                           size="txtHelveticaBold24"
                         >
-                          12k+
+                          340k+
                         </Text>
                         <Text
                           className="text-2xl md:text-[22px] text-center text-white-A700 sm:text-xl"
                           size="txtHelveticaBold24"
                         >
-                          12+
+                          17.7 M+
                         </Text>
-                      </div> */}
-                      <div className="flex flex-row items-center justify-between md:ml-[0] ml-[53px] mt-7 w-[67%] md:w-full">
-                        <Text
-                          className="text-2xl md:text-[22px] text-center text-white-A700 sm:text-xl"
-                          size="txtHelveticaBold24"
-                        >
-                          12k+
-                        </Text>
-                        <div className="h-5 md:h-[13px] py-[3px] relative w-20"></div>
-                        <div className="flex-1">
-                          <Text
-                            className="text-2xl md:text-[22px] text-center text-white-A700 sm:text-xl"
-                            size="txtHelveticaBold24"
-                          >
-                            12+
-                          </Text>
-                        </div>
                       </div>
                       <Text
                         className="mt-[18px] text-center text-lg text-white-A700 w-full"
                         size="txtHelvetica18"
                       >
-                        This is every entrepreneur's dream.
-                        <span
-                          style={{ display: "block", height: "20px" }}
-                        ></span>
-                        It gives you time back + targeted organic traffic so you
-                        drive your business forward.
+                        Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                        Cursus nibh mauris, nec turpis orci lectus maecenas.
+                        Suspendisse sed magna eget nibh in turpis. Consequat
+                        duis diam lacus arcu.
                       </Text>
                     </div>
                   </div>
@@ -1133,7 +1056,7 @@ const LandingPagev2 = () => {
                     <div className="flex flex-row gap-2.5 items-center justify-start w-[62%] md:w-full">
                       <Img
                         className="h-[60px] md:h-auto rounded-[50%] w-[60px]"
-                        src="images/Ellipse 40.png"
+                        src="images/img_ellipse6.png"
                         alt="ellipseSix_One"
                       />
                       <div className="flex flex-col gap-[7px] items-start justify-start">
@@ -1141,23 +1064,13 @@ const LandingPagev2 = () => {
                           className="text-black-900 text-center text-lg"
                           size="txtHelveticaBold18"
                         >
-                          Sarah
+                          Leo
                         </Text>
-                        {/* <Text
+                        <Text
                           className="text-black-900 text-center text-xs"
                           size="txtHelvetica12"
                         >
-                          Marketer @FMF
-                        </Text> */}
-                        <Text
-                          className="text-xs text-black-900 whitespace-nowrap overflow-hidden"
-                          display="block"
-                          size="txtHelvetica12"
-                          style={{
-                            textOverflow: "ellipsis",
-                          }}
-                        >
-                          Founder @FMF
+                          Lead Designer
                         </Text>
                       </div>
                     </div>
@@ -1180,74 +1093,56 @@ const LandingPagev2 = () => {
                         />
                       </div>
                     </div>
-                    <div className="flex flex-row gap-[60px] items-center justify-start ml-5 md:ml-[0] mt-[9px] w-[79%] md:w-full">
+                    <div className="flex flex-row gap-[85px] items-center justify-start ml-5 md:ml-[0] mt-[9px] w-[79%] md:w-full">
                       <Text
-                        className="text-xs text-black-900 whitespace-nowrap text-cente"
-                        display="block"
-                        size="txtHelvetica12"
+                        className="text-black-900 text-center text-sm"
+                        size="txtHelveticaLight14"
                       >
-                        Organic Traffic
+                        Subscriber
                       </Text>
                       <Text
-                        className="text-xs text-black-900 whitespace-nowrap text-cente"
+                        className="text-black-900 text-center text-sm"
                         size="txtHelveticaLight14"
-                        display="block"
                       >
-                        Blogs Ranking
+                        Views
                       </Text>
                     </div>
-                    {/* <div className="flex flex-row gap-[81px] items-center justify-end ml-8 md:ml-[0] mt-1.5 w-[82%] md:w-full">
+                    <div className="flex flex-row gap-[81px] items-center justify-end ml-8 md:ml-[0] mt-1.5 w-[82%] md:w-full">
                       <Text
                         className="text-blue_gray-700 text-center text-lg"
                         size="txtHelveticaBold18Bluegray700"
                       >
-                        10k+
+                        340k+
                       </Text>
                       <Text
                         className="text-blue_gray-700 text-center text-lg"
                         size="txtHelveticaBold18Bluegray700"
                       >
-                       9+
+                        17.7 M+
                       </Text>
-                    </div> */}
-                    <div className="flex flex-row items-center justify-between md:ml-[0] ml-[53px] mt-7 w-[67%] md:w-full">
-                      <Text
-                        className="text-xl md:text-[22px] text-center text-blue_gray-700 sm:text-xl"
-                        size="txtHelveticaBold24"
-                      >
-                        10k+
-                      </Text>
-                      <div className="h-5 md:h-[13px] py-[3px] relative w-20"></div>
-                      <div className="flex-1">
-                        <Text
-                          className="text-xl md:text-[22px] text-center text-blue_gray-700 sm:text-xl"
-                          size="txtHelveticaBold24"
-                        >
-                          9+
-                        </Text>
-                      </div>
                     </div>
                     <Text
                       className="ml-1 md:ml-[0] mt-[22px] text-black-900 text-center text-xs w-[99%] sm:w-full"
                       size="txtHelvetica12"
                     >
-                      This is a competition killer. I only focus on product &
-                      customers now while autoSEO takes care of the targeted
-                      organic traffic.
+                      Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                      Cursus nibh mauris, nec turpis orci lectus maecenas.
+                      Suspendisse sed magna eget nibh in turpis. Consequat duis
+                      diam lacus arcu.
                     </Text>
                   </div>
                 </div>
               </div>
-              {/* <div className="flex flex-row items-start justify-center md:ml-[0] ml-[378px] mt-[35px] w-[30%] md:w-full">
+              <div className="flex flex-row items-start justify-center md:ml-[0] ml-[378px] mt-[35px] w-[30%] md:w-full">
                 <Img
                   className="h-[31px] md:h-auto object-cover"
-                  src="images/img_chevrondown.png"
+                  src="/arrow-left.svg"
                   alt="chevrondown"
                 />
                 <PagerIndicator
                   className="flex h-[17px] ml-9 mt-2.5 w-[177px]"
                   count={6}
-                  activeCss="inline-block cursor-pointer rounded-[50%] h-[17px] w-[17px] bg-[#FF335B]"
+                  activeCss="inline-block cursor-pointer rounded-[50%] h-[17px] w-[17px] bg-[#060640]"
                   activeIndex={1}
                   inactiveCss="inline-block cursor-pointer rounded-[50%] h-[17px] bg-gray-400_01 w-[17px]"
                   selectedWrapperCss="inline-block mx-[7.50px]"
@@ -1255,10 +1150,10 @@ const LandingPagev2 = () => {
                 />
                 <Img
                   className="h-[31px] md:h-auto ml-[37px] object-cover"
-                  src="images/img_chevrondown_31x36.png"
+                  src="/arrow-right.svg"
                   alt="chevrondown_One"
                 />
-              </div> */}
+              </div>
             </div>
           </div>
           <div className="bg-blue_gray-900_03 flex flex-col font-dmsans items-center justify-end mt-[151px] p-[58px] md:px-10 sm:px-5 w-full">
